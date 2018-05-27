@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css'>
+    <title>Dojodachi</title>
+</head>
+<body>
+    <h3>Dojodachi</h3>
+
+    <p>Fullness: @ViewBag.fullness Happiness: @ViewBag.Happiness Meals: @ViewBag.Meals Energy: @ViewBag.Energy</p>
+    <img src="@ViewBag.Image">
+    <div id="results">
+        @ViewBag.Response
+    </div>
+    <button><a href="/feed">Feed</a></button>
+    <button><a href="/play">Play</a></button>
+    <button><a href="/work">Work</a></button>
+    <button><a href="/sleep">Sleep</a></button>
+    
+</body>
+</html>
